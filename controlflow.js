@@ -100,3 +100,8 @@ if (temp >= 30) {
 // } else {
 //   console.log("Grade: D");
 // }
+
+
+//switch case example
+
+let day
