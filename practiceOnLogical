@@ -1,0 +1,37 @@
+/* Practicing What We've Learned
+Okay, let's get some practice with logical operators. Take a look at the first un-commented out line in the snippet below: 0 && false;. What do you think the expression will return? Think it through and come up with an answer, then copy & paste it into the REPL console and hit enter to check whether you're right. When you're done with the first expression, work your way down through the remaining expressions in turn. Be sure you think each example through and figure out your answer before running the code.
+
+If you're having difficulty with the examples, try following this procedure:
+
+Evaluate each side of the operator individually: what is the return value of each individual expression, and what is the truthiness of each of those values?
+Find the corresponding row in the appropriate table above and refer to the 'Return value' column to determine the return value of the full expression.
+Finally, once you're done with the provided expressions, experiment with some examples of your own to cement your understanding. */
+
+//What should each of the following expressions return? 
+//Once you have an answer, copy the expression in question into the console and hit enter to see if you're right!
+
+// Practice with AND
+0 && false;
+
+0 && true;
+
+true && NaN;
+
+true && !1;
+
+!0 && "This is a string";
+
+!0 && "";
+
+!0 && !!"";
+
+// Practice with OR
+0 || false;
+
+true || false;
+
+true || 1;
+
+!true || !false
+
+!1 || !0

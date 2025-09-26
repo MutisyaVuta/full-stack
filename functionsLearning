@@ -1,0 +1,78 @@
+// A series of single, non-abstract, tasks:
+// console.log("Wake Byron the poodle");
+// console.log("Leash Byron the poodle");
+// console.log("Walk to the park Byron the poodle");
+// console.log("Throw the frisbee for Byron the poodle");
+// console.log("Walk home with Byron the poodle");
+// console.log("Unleash Byron the poodle");
+
+
+// function exerciseByroneThePoodle(){
+//   console.log("Wake Byron the poodle");
+//   console.log("Leash Byron the poodle");
+//   console.log("Walk to the park Byron the poodle");
+//   console.log("Throw the frisbee for Byron the poodle");
+//   console.log("Walk home with Byron the poodle");
+//   console.log("Unleash Byron the poodle");
+// }
+// exerciseByroneThePoodle()
+
+//More example on function declaration
+// function learnJsAtHome(){
+//     console.log('Set up the wifi')
+//     console.log('Open the laptop')
+//     console.log('Open Vs code')
+//     console.log('Go thro slides')
+//     console.log('Do practicals')
+//     console.log('Do a recap')
+// }
+// learnJsAtHome()
+
+//Generalization
+
+// function exerciseByroneThePoodle(){
+//     const dogName = 'Byron'
+//     const dogBreed = 'poodle'
+//     console.log(`Wake ${dogName} the ${dogBreed}`)
+//     console.log(`Leash ${dogName} the ${dogBreed}`)
+//     console.log(`Walk to the park ${dogName} the ${dogBreed}`)
+//     console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`)
+//     console.log(`Walk home with ${dogName} the ${dogBreed}`)
+//     console.log(`Unleash ${dogName} the ${dogBreed}`)
+// }
+// exerciseByroneThePoodle()
+
+
+//a rewritten version with parameters
+
+// function exerciseTheDog (dogName = 'Byrone', dogBreed = 'Poodle'){
+//     console.log(`Wake ${dogName} the ${dogBreed}`)
+//     console.log(`Leash ${dogName} the ${dogBreed}`)
+//     console.log(`Walk to the park ${dogName} the ${dogBreed}`)
+//     console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`)
+//     console.log(`Walk home with ${dogName} the ${dogBreed}`)
+//     console.log(`Unleash ${dogName} the ${dogBreed}`)
+
+// }
+// // exerciseTheDog('Byrone', 'poodle')
+// // exerciseTheDog('Bosco', 'Mutina')
+// exerciseTheDog()
+
+//Demonstrate Return Values
+const weatherToday = "Rainy";
+
+function exerciseDog(dogName, dogBreed) {
+  if (weatherToday === "Rainy") {
+    return `${dogName} did not exercise due to rain`;
+  }
+  console.log(`Wake ${dogName} the ${dogBreed}`);
+  console.log(`Leash ${dogName} the ${dogBreed}`);
+  console.log(`Walk to the park ${dogName} the ${dogBreed}`);
+  console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
+  console.log(`Walk home with ${dogName} the ${dogBreed}`);
+  console.log(`Unleash ${dogName} the ${dogBreed}`);
+  return `${dogName} is happy and tired!`;
+}
+
+const result = exerciseDog("Byron", "poodle");
+console.log(result); // => "Byron did not exercise due to rain"
