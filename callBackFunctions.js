@@ -23,3 +23,10 @@ resultsNumber = iInvokeThings(function(){return 4+5});
 resultsStrting = iInvokeThings(function(){ return 'Hello' + 'World'});
  console.log(resultsNumber)
  console.log(resultsStrting)
+
+ //call back function
+
+ function main (cb){
+    console.log(cb());
+ }
+ main(function(){return "After I get passed to the main() function as the only argument, I'm stored in the local 'cb' variable!"})
