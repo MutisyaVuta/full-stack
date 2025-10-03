@@ -7,7 +7,7 @@
 // }
 // // const resultsObjects = iReturnThings({firstName: ' Bredan', lastName: 'Eich'})
 
-// //how we pass a function into  a function
+// // //how we pass a function into  a function
 // const resultsFunction = iReturnThings(function(){ return 4 + 5})
 // // console.log(resultsObjects)
 
@@ -29,21 +29,31 @@
 //  function main (cb){
 //     console.log(cb());
 //  }
- //main(function(){return "After I get passed to the main() function as the only argument, I'm stored in the local 'cb' variable!"})
+//  main(function(){return "After I get passed to the main() function as the only argument, I'm stored in the local 'cb' variable!"})
 
  //parameter defined for outer functions are available anywhere inside the function
  //As a result, we can pass them as arguments to the callback function.
 
- function greet (name,cb){
-    return cb(name);
- }
- output = greet('Ada Lovelace', function(name){return 'Hello there,' + name});
+//  function greet (name,cb){
+//     return cb(name);
+//  }
+//  output = greet('Ada Lovelace', function(name){return 'Hello there,' + name});
 
- console.log(output)
+//  console.log(output)
 
- function doMath(num1,num2, cb){
-    return cb(num1,num2);
- }
- answer = doMath(6,8, function(num1,num2){return num1 * num2})
- console.log(answer)
+//  function doMath(num1,num2, cb){
+//     return cb(num1,num2);
+//  }
+//  answer = doMath(6,8, function(num1,num2){return num1 * num2})
+//  console.log(answer)
+
+
+function doSum(num1,num2,cb){
+    return cb(num1,num2)
+}
+sum= doSum(5,9,function(num1,num2){return num1+num2})
+
+console.log(sum)
+
+
 
