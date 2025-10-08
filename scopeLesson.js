@@ -15,17 +15,17 @@
 // myFunc2();
 
 
-// function myFunc(){
-//     const myVar = 42;
-// }
-// myVar*2
+function myFunc(){
+    const myVar = 42;
+}
+myVar*2
 
 //Uncaught ReferenceError: myVar is not defined
 //Variables defined with `var` do not have block scope.
-// if (true) {
-//     var myVar = 42;
-// }
-// console.log(myVar)
+if (true) {
+    var myVar = 42;
+}
+console.log(myVar)
 
 //However, variables defined with `let` or `const` do have block scope.
 // if (true) {
