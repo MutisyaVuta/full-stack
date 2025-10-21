@@ -18,34 +18,42 @@
 // console.log(winningNumbers[3]);
 // console.log(winningNumbers[4]);
 
-const alphabet = [
-  "a",
-  "b",
-  "c",
-  "d",
-  "e",
-  "f",
-  "g",
-  "h",
-  "i",
-  "j",
-  "k",
-  "l",
-  "m",
-  "n",
-  "o",
-  "p",
-  "q",
-  "r",
-  "s",
-  "t",
-  "u",
-  "v",
-  "w",
-  "x",
-  "y",
-  "z",
+// const alphabet = [
+//   "a",
+//   "b",
+//   "c",
+//   "d",
+//   "e",
+//   "f",
+//   "g",
+//   "h",
+//   "i",
+//   "j",
+//   "k",
+//   "l",
+//   "m",
+//   "n",
+//   "o",
+//   "p",
+//   "q",
+//   "r",
+//   "s",
+//   "t",
+//   "u",
+//   "v",
+//   "w",
+//   "x",
+//   "y",
+//   "z",
+// ];
+// alphabet.length
+// console.log(alphabet.length);
+// console.log(alphabet[alphabet.length - 1]);
+
+//nested arrays
+const egregiouslyNestedArray = [
+  "How",
+  ["deep", ["can", ["we", ["go", ["?"], "Pretty"], "dang"], "deep,"], "it"],
+  "seems.",
 ];
-alphabet.length
-console.log(alphabet.length);
-console.log(alphabet[alphabet.length - 1]);
+egregiouslyNestedArray.length
