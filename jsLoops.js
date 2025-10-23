@@ -6,20 +6,20 @@
 //     console.log(`Fruit at index ${[i]} : ${fruits[i]}`); 
 // }
 
-//counting up
+// //counting up
 // for(let i=1; i<=10; i++) {
 //     console.log(`Count up: ${i}`);
 // }
 
-//counting down and skipping by 2
-// for(let i=10; i>=0; i -=2) {
-//     console.log(`Count down by 2: ${i}`);
-// }
+// counting down and skipping by 2
+for(let i=10; i>=0; i -=2) {
+    console.log(`Count down by 2: ${i}`);
+}
 
-//count up even numbers only
-// for(let i=0; i<=20; i +=2) {
-//     console.log(`Even number: ${i}`);
-// }
+// count up even numbers only
+for(let i=0; i<=20; i +=2) {
+    console.log(`Even number: ${i}`);
+}
 
 //count down odd numbers only
 // for(let i=19; i>=1; i -=2) {
@@ -43,11 +43,11 @@
 //do...while loops
 //ensure the loop runs at least once
 //example:
-// let score = 0;
-// do {
-//     console.log(`Current Score: ${score}`);
-//     score += 10;
-// } while(score < 50);    
+let score = 0;
+do {
+    console.log(`Current Score: ${score}`);
+    score += 10;
+} while(score < 50);    
 
 
 //random number guessing game
@@ -72,10 +72,10 @@
 // }
 
 //continue statement
-for(let i=1; i<=10; i++) {
-    if(i % 2 === 0) {
-        // console.log('Skipping even number');
-        continue;
-    }
-    console.log(`Odd number: ${i}`);
-}
+// for(let i=1; i<=10; i++) {
+//     if(i % 2 === 0) {
+//         // console.log('Skipping even number');
+//         continue;
+//     }
+//     console.log(`Odd number: ${i}`);
+// }

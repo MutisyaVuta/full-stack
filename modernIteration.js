@@ -1,4 +1,4 @@
-// //for...of
+// // //for...of
 // const names = ['Alice', 'Bob', 'Charlie'];
 // for (const item of names) {
 //     // console.log(i);
@@ -6,10 +6,10 @@
 // }
 
 //for ...of limitations with arrays
-const colours = ['red', 'green', 'blue'];
-for (const [index, color] of colours.entries()) {
-    console.log(`Colour at index ${index} is: ${color}`);
-}
+// const colours = ['red', 'green', 'blue'];
+// for (const [index, color] of colours.entries()) {
+//     console.log(`Colour at index ${index} is: ${color}`);
+// }
 
 //string iteration
 // const greeting = "Hello!";
@@ -23,25 +23,25 @@ for (const [index, color] of colours.entries()) {
 //     console.log(char);
 // }
 
-//for...in
-// const address = {
-//     street1: '6143 Ruiru',
-//     street2: 'P.O. Box 12345',
-//     city: 'Nairobi',
-//     state: 'Kenya',
-//     zip: '00100'
-// }
-// for (const key in address) {
-//     if(address.hasOwnProperty(key))
-//         console.log(`${key}: ${address[key]}`);
-//     // console.log(address[key])
-// }
+// for...in
+const address = {
+    street1: '6143 Ruiru',
+    street2: 'P.O. Box 12345',
+    city: 'Nairobi',
+    state: 'Kenya',
+    zip: '00100'
+}
+for (const key in address) {
+    if(address.hasOwnProperty(key))
+        console.log(`${key}: ${address[key]}`);
+    // console.log(address[key])
+}
 
-// const user = { name: "Jen", role: "Developer" };
+const user = { name: "Jen", role: "Developer" };
 
-// for (const key in user) {
-//   if (user.hasOwnProperty(key)) {
-//     console.log(`${key}: ${user[key]}`);
-//   }
-// }
+for (const key in user) {
+  if (user.hasOwnProperty(key)) {
+    console.log(`${key}: ${user[key]}`);
+  }
+}
 
